@@ -16,7 +16,7 @@ class Patient
   end 
   
   def appointments 
-    pust Appointment.all
+    puts Appointment.all
     return Appointment.all.select{|x| x.patient == self}
   end
   
