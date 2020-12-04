@@ -20,6 +20,7 @@ class Patient
   end
   
   def doctors
+    puts appointments
     return appointments.map{ |x| x.doctor}
   end
 end
